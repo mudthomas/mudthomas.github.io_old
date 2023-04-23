@@ -1,36 +1,85 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html> <!-- specifies the document type as HTML5 -->
+<html> <!-- defines the root element of the document -->
 <head>
-	<title>My Simple Webpage</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #f2f2f2;
+	<title>My CV</title> <!-- sets the title of the webpage -->
+	<style> <!-- begins the CSS style section -->
+		body { <!-- styles the entire webpage body -->
+			font-family: Arial, sans-serif; <!-- sets the font for the body text -->
+			background-color: #f2f2f2; <!-- sets the background color for the body -->
 		}
-		h1 {
-			color: #333;
-			text-align: center;
+		h1 { <!-- styles the heading level 1 element -->
+			color: #333; <!-- sets the text color for the heading -->
+			text-align: center; <!-- centers the heading text -->
 		}
-		p {
-			font-size: 18px;
-			line-height: 1.5;
-			margin: 20px;
-			padding: 10px;
-			background-color: #fff;
-			border: 1px solid #ccc;
-			border-radius: 5px;
-			box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+		p { <!-- styles the paragraph elements -->
+			font-size: 18px; <!-- sets the font size for the paragraph text -->
+			line-height: 1.5; <!-- sets the line height for the paragraph text -->
+			margin: 20px; <!-- sets the margin for the paragraph element -->
+			padding: 10px; <!-- sets the padding for the paragraph element -->
+			background-color: #fff; <!-- sets the background color for the paragraph element -->
+			border: 1px solid #ccc; <!-- sets the border style for the paragraph element -->
+			border-radius: 5px; <!-- sets the border radius for the paragraph element -->
+			box-shadow: 2px 2px 2px rgba(0,0,0,0.3); <!-- adds a box shadow effect to the paragraph element -->
 		}
-	</style>
+		h2 { <!-- styles the heading level 2 element -->
+			color: #333; <!-- sets the text color for the heading -->
+			margin-top: 50px; <!-- sets the top margin for the heading -->
+		}
+		h3 { <!-- styles the heading level 3 element -->
+			color: #333; <!-- sets the text color for the heading -->
+			margin-top: 30px; <!-- sets the top margin for the heading -->
+		}
+		ul { <!-- styles the unordered list element -->
+			list-style-type: none; <!-- removes the default bullet points from the list -->
+			margin: 0; <!-- removes the margin from the list element -->
+			padding: 0; <!-- removes the padding from the list element -->
+		}
+		li { <!-- styles the list item elements -->
+			margin: 10px 0; <!-- sets the margin between list items -->
+		}
+		a { <!-- styles the hyperlink elements -->
+			color: #333; <!-- sets the text color for hyperlinks -->
+			text-decoration: none; <!-- removes the underline from hyperlinks -->
+			border-bottom: 2px solid #333; <!-- adds a border line to the bottom of hyperlinks on hover -->
+			transition: all 0.2s ease-in-out; <!-- adds a smooth transition effect to the border line -->
+		}
+		a:hover { <!-- styles hyperlinks on hover -->
+			border-bottom: 2px solid #f00; <!-- changes the color of the border line on hover -->
+		}
+	</style> <!-- ends the CSS style section -->
 </head>
 <body>
-	<h1>Welcome to my Simple Webpage!</h1>
-	<p>This is a paragraph of text on my webpage. It's not very long, but it's still important. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac nibh nec sapien commodo bibendum. Aliquam a est at lorem aliquam posuere vel ac enim.</p>
-	<p>Here's another paragraph of text. It's a little bit longer than the first one, but it's still not very long. Duis non metus vitae mauris blandit tincidunt. Nulla facilisi. Donec vitae mi felis. Sed vestibulum felis ac nulla feugiat interdum.</p>
-	<div>
-		<a href="https://www.example.com"><img src="https://via.placeholder.com/150x150" alt="Example Image 1"></a>
-		<a href="https://www.example.com"><img src="https://via.placeholder.com/150x150" alt="Example Image 2"></a>
-		<a href="https://www.example.com"><img src="https://via.placeholder.com/150x150" alt="Example Image 3"></a>
-	</div>
+	<h1>John Doe</h1> <!-- creates a heading level 1 element -->
+	<p>Web Developer</p> <!-- creates a paragraph element with text -->
+
+	<h2>Skills</h2> <!-- creates a heading level 2 element -->
+	<ul> <!-- begins an unordered list element -->
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JavaScript</li>
+		<li>PHP</li>
+		<li>MySQL</li>
+		<li>Python</li>
+	</ul> <!-- ends the unordered list element -->
+
+	<h2>Education</h2> <!-- creates a heading level 2 element -->
+	<h3>Bachelor's Degree in Computer Science</h3> <!-- creates a heading level 3 element -->
+	<p>University of ABC, 2015-2019</p> <!-- creates a paragraph element with text -->
+
+	<h2>Experience</h2> <!-- creates a heading level 2 element -->
+	<h3>Web Developer</h3> <!-- creates a heading level 3 element -->
+	<p>XYZ Company, 2019-2022</p> <!-- creates a paragraph element with text -->
+	<ul> <!-- begins an unordered list element -->
+		<li>Developed and maintained company websites</li> <!-- creates a list item element with text -->
+		<li>Designed and implemented database systems</li> <!-- creates a list item element with text -->
+		<li>Integrated third-party APIs and services</li> <!-- creates a list item element with text -->
+	</ul> <!-- ends the unordered list element -->
+
+	<h2>Contact</h2> <!-- creates a heading level 2 element -->
+	<ul> <!-- begins an unordered list element -->
+		<li>Email: <a href="mailto:john.doe@email.com">john.doe@email.com</a></li>
+		<li>Github: <a href="https://github.com/johndoe">https://github.com/johndoe</a></li>
+		<li>LinkedIn: <a href="https://www.linkedin.com/in/johndoe/">https://www.linkedin.com/in/johndoe/</a></li>
+	</ul> <!-- ends the unordered list element -->
 </body>
 </html>
